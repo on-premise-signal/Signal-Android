@@ -17,11 +17,11 @@ public class SignalServiceTrustStore implements TrustStore {
 
   @Override
   public InputStream getKeyStoreInputStream() {
-    return context.getResources().openRawResource(R.raw.whisper);
+    return context.getResources().openRawResource(R.raw.server);
   }
 
   @Override
   public String getKeyStorePassword() {
-    return "whisper";
+    return "qephone";
   }
 }
