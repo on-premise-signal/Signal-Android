@@ -22,6 +22,6 @@ public class CdnTrustStore implements TrustStore {
 
     @Override
     public String getKeyStorePassword() {
-        return "qephone";
+        return "insecure";
     }
 }
